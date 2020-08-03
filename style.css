@@ -1,0 +1,91 @@
+body {
+    background-color: powderblue;
+}
+
+* {
+    color: #4d4d4d;
+    text-align: center;
+}
+
+h1 {
+    font-size: 500%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 300%;
+    margin: auto;
+}
+
+p {
+    font-size: 150%;
+    margin: auto;
+}
+
+.field {
+    background-color: lightgreen;
+    display: block;
+    margin: auto;
+    width: 1000;
+    height: 500;
+    border-style: solid;
+}
+
+.noborder {
+    border: hidden;
+}
+
+/* target */
+.target1 {
+    background-color: red;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+.target2 {
+    background-color: yellow;
+    display: flex;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+.target3 {
+    background-color: red;
+    display: flex;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+/* timer */
+.timer {
+    font-size: 300%;
+}
+
+/* scoreboard */
+.scoreboard {
+    font-size: 300%;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

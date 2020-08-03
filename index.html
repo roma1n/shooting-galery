@@ -1,0 +1,37 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <h1>
+        Shooting gallery
+    </h1>
+</head>
+<body>
+    <p>
+        Click targets as fast as you can. The closer to center of target you click the more score you get.
+    </p>
+    <div class='timer' id='timer'></div>
+    <div class='field' id='gamefield'>
+        <!-- Game -->
+        <div class='target1' id='target' onclick=addScore(1)>
+            <div class = 'target2' onclick=addScore(1)>
+                <div class="target3" onclick=addScore(1)>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Start menu -->
+        <div class='field noborder container' id='startGameField' onclick=startGame()>
+            <h2 class='center' id='startGameText'>
+                Click to start game.
+            </h2>
+        </div>
+        <!-- Endgame menu -->
+        <div class='field noborder container' id='endGameField' onclick=startMenu()>
+            <h2 class='center' id='endGameText'>
+                Your score is.
+            </h2>
+        </div>
+    </div>
+    <div class='scoreboard' id='scoreboard'></div>
+    <!-- Script -->
+    <script src='script.js'></script>
+</body>
